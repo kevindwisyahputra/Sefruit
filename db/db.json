@@ -1,0 +1,504 @@
+{
+  "users": [
+    {
+      "username": "Admin",
+      "email": "admin@gmail.com",
+      "password": "1234",
+      "role": "Admin",
+      "status": "Active",
+      "id": 1,
+      "cart": []
+    },
+    {
+      "username": "Dio",
+      "email": "test@mail.com",
+      "password": "1234",
+      "role": "User",
+      "status": "Active",
+      "cart": [
+        {
+          "idProduct": 1,
+          "name": "Orange",
+          "image": "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/11.1.jpg?v=1623396707",
+          "qty": 3,
+          "price": 2285
+        }
+      ],
+      "id": 2
+    },
+    {
+      "username": "Abdi",
+      "email": "abdi@mail.com",
+      "password": "1234",
+      "role": "User",
+      "status": "Active",
+      "cart": [
+        {
+          "idProduct": 1,
+          "name": "Orange",
+          "image": "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/11.1.jpg?v=1623396707",
+          "qty": 3,
+          "price": 2285
+        }
+      ],
+      "id": 3
+    },
+    {
+      "username": "Renold",
+      "email": "renold@mail.com",
+      "password": "1234",
+      "role": "User",
+      "status": "Active",
+      "cart": [],
+      "id": 4
+    },
+    {
+      "username": "Al",
+      "email": "abdi01@mail.com",
+      "password": "1234",
+      "role": "User",
+      "status": "Active",
+      "cart": [],
+      "id": 5
+    },
+    {
+      "username": "Aldo",
+      "email": "abdi01@gmail.com",
+      "password": "1234",
+      "role": "User",
+      "status": "Active",
+      "cart": [],
+      "id": 6
+    },
+    {
+      "username": "Aldov",
+      "email": "abdi02@mail.com",
+      "password": "1234",
+      "role": "User",
+      "status": "Active",
+      "cart": [
+        {
+          "idProduct": 3,
+          "name": "Banana",
+          "image": "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/2.1.jpg?v=1623394147",
+          "qty": 2,
+          "price": 30000
+        },
+        {
+          "idProduct": 6,
+          "name": "Kiwi",
+          "image": "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/15.1.jpg?v=1623662840",
+          "qty": 3,
+          "price": 9500
+        }
+      ],
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "name": "Orange",
+      "weight": 140,
+      "category": "Buah",
+      "price": 2285,
+      "stock": 10,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/11.1.jpg?v=1623396707",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/11.4.jpg?v=1623396708"
+      ],
+      "description": "Oranges are a rich source of carotenoid. The Vitamin A present in them play an important role in keeping the mucus membranes in the eyes healthy. Vitamin A is also responsible to prevent age-related mascular degeneration, which in extreme cases can lead to blindness. It also helps eyes to absorb the light.",
+      "id": 1
+    },
+    {
+      "name": "Watermelon",
+      "weight": 3000,
+      "category": "Buah",
+      "price": 20000,
+      "stock": 20,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0206/9470/products/watermelon-seedless-quarter-done_1024x1024.jpg?v=1568670567"
+      ],
+      "description": [
+        "Several nutrients in watermelon may support heart health.Heart disease is the leading cause of death worldwide. It’s worth noting that lifestyle factors like diet may lower your risk of heart attack and stroke by reducing your blood pressure and cholesterol levels .Studies suggest that lycopene may help lower cholesterol and blood pressure. It may also help prevent oxidative damage caused by high cholesterol levels .Watermelon also contains citrulline, an amino acid that may increase nitric oxide levels in your body. Nitric oxide helps your blood vessels expand, which lowers blood pressure .Other heart-healthy vitamins and minerals in watermelon include magnesium, potassium, and vitamins A, B6, and C ."
+      ],
+      "id": 2
+    },
+    {
+      "name": "Banana",
+      "weight": 2500,
+      "category": "Buah",
+      "price": 30000,
+      "stock": 40,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/2.1.jpg?v=1623394147",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/2.2.jpg?v=1623394148"
+      ],
+      "description": [
+        "Bananas may not be overflowing with calcium, but they are still helpful in keeping bones strong. According to a 2009 article in the Journal of Physiology and Biochemistry, bananas contain an abundance of fructooligosaccharides. These are non-digestive carbohydrates that encourage digestive-friendly probiotics and enhance the body's ability to absorb calcium."
+      ],
+      "id": 3
+    },
+    {
+      "name": "Mango",
+      "weight": 260,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 50,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/5.1.jpg?v=1623395055",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/5.2.jpg?v=1623395055"
+      ],
+      "description": [
+        "Mangos can help stabilize your digestive system. They offer both amylase compounds and dietary fiber, which can help you avoid constipation. Amylase compounds can help dissolve other foods in your stomach, breaking down difficult starches. Meanwhile, the fiber in mangos can be more effective for relieving constipation than equivalent fiber supplements."
+      ],
+      "id": 4
+    },
+    {
+      "name": "Durian",
+      "weight": 7000,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 5,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/13.1.jpg?v=1623397015",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/13.4.jpg?v=1623397016"
+      ],
+      "description": [
+        "The manganese in durian may help in the maintenance of blood sugar levels. In one study, the intake of durian had also improved the insulin response curve in 10 patients with diabetes. The antioxidants in durian also help reduce oxidative stress, which can otherwise aggravate diabetes symptoms. Durian also has a lower glycemic index (GI). Hence, the fruit would not lead to blood sugar spikes."
+      ],
+      "id": 5
+    },
+    {
+      "name": "Kiwi",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 15,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/15.1.jpg?v=1623662840",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/15.2.jpg?v=1623662840"
+      ],
+      "description": [
+        "Oxidative stress is the imbalance of free radicals and antioxidants in your body. This process can also cause strand breakage of DNA. This can lead to health problems, some of which can be hard to detect or treat. Kiwi fruit contains antioxidants that can reduce oxidative stress. A study that tested people’s cells by damaging them with peroxide, showed that those who supplemented with kiwi showed an improved ability of the DNA to repair itself after applying the peroxide. This means that kiwi might help prevent long-term cancers and lifestyle diseases such as colon cancer, which is closely linked to DNA damage. "
+      ],
+      "id": 6
+    },
+    {
+      "name": "Avocado",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 30,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/7.1.jpg?v=1623395436",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/7.2.jpg?v=1623395436"
+      ],
+      "description": [
+        "Avocados are a good source of folateTrusted Source, which plays an important role in overall dietary health. Studies have also found links between low folate levels and depression.Folate helps prevent the buildup of homocysteine, a substance that can impair circulation and delivery of nutrients to the brain. Reviews of past researchTrusted Source have linked excess homocysteine with cognitive dysfunction, depression, and the production of serotonin, dopamine, and norepinephrine, which regulate mood, sleep, and appetite."
+      ],
+      "id": 7
+    },
+    {
+      "name": "Peaches",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 25,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/8.1.jpg?v=1623395812",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/8.3.jpg?v=1623395812"
+      ],
+      "description": [
+        "Antioxidants found in peaches are known to combat oxidative stress, which is essentially an imbalance between the production of cell-damaging free radicals and the body's ability to counter their harmful effects. That’s key for brain health, as oxidative stress is known to be a causative factor in neurodegenerative diseases such as Alzheimer's."
+      ],
+      "id": 8
+    },
+    {
+      "name": "Guava",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 12,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/16.1.jpg?v=1623397473",
+        "https://images.unsplash.com/photo-1536511132770-e5058c7e8c46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      ],
+      "description": [
+        "Guava leaves have a potent anti-inflammatory action and a powerful antibacterial ability which fights infection and kills germs. Thus, consuming guava leaves works as a fantastic home remedy for toothache. The juice of guava leaves has also been known to cure toothaches, swollen gums and oral ulcers."
+      ],
+      "id": 9
+    },
+    {
+      "name": "Apple",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 100,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/4.1.jpg?v=1623394726",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/4.2.jpg?v=1623394726"
+      ],
+      "description": [
+        "If you have type 2 diabetes, consider adding apples to your diet. Sure, they’re a fruit, but it’s a common misconception that people with diabetes can’t eat fruit.In this case, apples’ soluble fiber can help slow the absorption of sugar into the bloodstream and may improve blood sugar levels, the Mayo Clinic notes. Plus, per Mayo, a healthy diet that includes insoluble fiber can lower your odds of developing type 2 diabetes in the first place.Furthermore, a study of people with type 2 diabetes published in August 2016 in Experimental and Therapeutic Medicine found that regularly consuming soluble fiber helped reduce insulin resistance and improved blood sugar and triglyceride levels."
+      ],
+      "id": 10
+    },
+    {
+      "name": "Pomegranate",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 12,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/12.1.jpg?v=1623396849",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/12.3.jpg?v=1623396849"
+      ],
+      "description": [
+        "With increasing age and the type of lifestyle we live, the walls of our arteries become harder due to cholesterol, resulting in blockages sometimes. The anti-oxidant property of pomegranate prevents bad cholesterol from oxidizing. So, eating pomegranates removes the excess fat and prevents the hardening of artery walls."
+      ],
+      "id": 11
+    },
+    {
+      "name": "Pineapple",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 18,
+      "images": [
+        "https://sc04.alicdn.com/kf/Ubb566e6691ef4550b46064686426357bL.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9wjmiUQzhyku79AbbM3LAA9JanM8H82R8A&usqp=CAU"
+      ],
+      "description": [
+        "Along with calcium, the trace mineral manganese is essential for maintaining strong bones, according to the University of Rochester Medical Center. Pineapple is one of the top food sources of the mineral, according to Oregon State University — a single cup of pineapple contains about 76 percent of the recommended daily value of manganese. Manganese may help stave off osteoporosis and helps improve overall bone and mineral density, according to Oregon State University. Be careful not to overdo it, though — manganese intake can be dangerous and may increase the risk of cognitive disorders if you consume more than 11 mg per day, according to a study published in The Open Orthopaedics Journal. But don’t fret: It’d be difficult to reach those levels because ½ cup pineapple has less than 1 mg manganese, Andrews says."
+      ],
+      "id": 12
+    },
+    {
+      "name": "Papaya",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 19,
+      "images": [
+        "https://raithachethana.com/wp-content/uploads/2021/11/Papaya-1.jpg",
+        "https://confidiet.com/wp-content/uploads/2021/08/papaya.jpg"
+      ],
+      "description": [
+        "Papaya is also great for hair because it contains vitamin A, a nutrient required for sebum production, which keeps hair moisturized. Vitamin A is also necessary for the growth of all bodily tissues, including skin and hair. Adequate intake of vitamin C, which papaya can provide, is needed for the building and maintenance of collagen, which provides structure to skin."
+      ],
+      "id": 13
+    },
+    {
+      "name": "Orange",
+      "weight": 140,
+      "category": "Buah",
+      "price": 2285,
+      "stock": 10,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/11.1.jpg?v=1623396707",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/11.4.jpg?v=1623396708"
+      ],
+      "description": "Oranges are a rich source of carotenoid. The Vitamin A present in them play an important role in keeping the mucus membranes in the eyes healthy. Vitamin A is also responsible to prevent age-related mascular degeneration, which in extreme cases can lead to blindness. It also helps eyes to absorb the light.",
+      "id": 1
+    },
+    {
+      "name": "Watermelon",
+      "weight": 3000,
+      "category": "Buah",
+      "price": 20000,
+      "stock": 20,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0206/9470/products/watermelon-seedless-quarter-done_1024x1024.jpg?v=1568670567"
+      ],
+      "description": [
+        "Several nutrients in watermelon may support heart health.Heart disease is the leading cause of death worldwide. It’s worth noting that lifestyle factors like diet may lower your risk of heart attack and stroke by reducing your blood pressure and cholesterol levels .Studies suggest that lycopene may help lower cholesterol and blood pressure. It may also help prevent oxidative damage caused by high cholesterol levels .Watermelon also contains citrulline, an amino acid that may increase nitric oxide levels in your body. Nitric oxide helps your blood vessels expand, which lowers blood pressure .Other heart-healthy vitamins and minerals in watermelon include magnesium, potassium, and vitamins A, B6, and C ."
+      ],
+      "id": 2
+    },
+    {
+      "name": "Banana",
+      "weight": 2500,
+      "category": "Buah",
+      "price": 30000,
+      "stock": 40,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/2.1.jpg?v=1623394147",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/2.2.jpg?v=1623394148"
+      ],
+      "description": [
+        "Bananas may not be overflowing with calcium, but they are still helpful in keeping bones strong. According to a 2009 article in the Journal of Physiology and Biochemistry, bananas contain an abundance of fructooligosaccharides. These are non-digestive carbohydrates that encourage digestive-friendly probiotics and enhance the body's ability to absorb calcium."
+      ],
+      "id": 3
+    },
+    {
+      "name": "Mango",
+      "weight": 260,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 50,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/5.1.jpg?v=1623395055",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/5.2.jpg?v=1623395055"
+      ],
+      "description": [
+        "Mangos can help stabilize your digestive system. They offer both amylase compounds and dietary fiber, which can help you avoid constipation. Amylase compounds can help dissolve other foods in your stomach, breaking down difficult starches. Meanwhile, the fiber in mangos can be more effective for relieving constipation than equivalent fiber supplements."
+      ],
+      "id": 4
+    },
+    {
+      "name": "Durian",
+      "weight": 7000,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 5,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/13.1.jpg?v=1623397015",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/13.4.jpg?v=1623397016"
+      ],
+      "description": [
+        "The manganese in durian may help in the maintenance of blood sugar levels. In one study, the intake of durian had also improved the insulin response curve in 10 patients with diabetes. The antioxidants in durian also help reduce oxidative stress, which can otherwise aggravate diabetes symptoms. Durian also has a lower glycemic index (GI). Hence, the fruit would not lead to blood sugar spikes."
+      ],
+      "id": 5
+    },
+    {
+      "name": "Kiwi",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 15,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/15.1.jpg?v=1623662840",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/15.2.jpg?v=1623662840"
+      ],
+      "description": [
+        "Oxidative stress is the imbalance of free radicals and antioxidants in your body. This process can also cause strand breakage of DNA. This can lead to health problems, some of which can be hard to detect or treat. Kiwi fruit contains antioxidants that can reduce oxidative stress. A study that tested people’s cells by damaging them with peroxide, showed that those who supplemented with kiwi showed an improved ability of the DNA to repair itself after applying the peroxide. This means that kiwi might help prevent long-term cancers and lifestyle diseases such as colon cancer, which is closely linked to DNA damage. "
+      ],
+      "id": 6
+    },
+    {
+      "name": "Avocado",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 30,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/7.1.jpg?v=1623395436",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/7.2.jpg?v=1623395436"
+      ],
+      "description": [
+        "Avocados are a good source of folateTrusted Source, which plays an important role in overall dietary health. Studies have also found links between low folate levels and depression.Folate helps prevent the buildup of homocysteine, a substance that can impair circulation and delivery of nutrients to the brain. Reviews of past researchTrusted Source have linked excess homocysteine with cognitive dysfunction, depression, and the production of serotonin, dopamine, and norepinephrine, which regulate mood, sleep, and appetite."
+      ],
+      "id": 7
+    },
+    {
+      "name": "Peaches",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 25,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/8.1.jpg?v=1623395812",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/8.3.jpg?v=1623395812"
+      ],
+      "description": [
+        "Antioxidants found in peaches are known to combat oxidative stress, which is essentially an imbalance between the production of cell-damaging free radicals and the body's ability to counter their harmful effects. That’s key for brain health, as oxidative stress is known to be a causative factor in neurodegenerative diseases such as Alzheimer's."
+      ],
+      "id": 8
+    },
+    {
+      "name": "Guava",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 12,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/16.1.jpg?v=1623397473",
+        "https://images.unsplash.com/photo-1536511132770-e5058c7e8c46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      ],
+      "description": [
+        "Guava leaves have a potent anti-inflammatory action and a powerful antibacterial ability which fights infection and kills germs. Thus, consuming guava leaves works as a fantastic home remedy for toothache. The juice of guava leaves has also been known to cure toothaches, swollen gums and oral ulcers."
+      ],
+      "id": 9
+    },
+    {
+      "name": "Apple",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 100,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/4.1.jpg?v=1623394726",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/4.2.jpg?v=1623394726"
+      ],
+      "description": [
+        "If you have type 2 diabetes, consider adding apples to your diet. Sure, they’re a fruit, but it’s a common misconception that people with diabetes can’t eat fruit.In this case, apples’ soluble fiber can help slow the absorption of sugar into the bloodstream and may improve blood sugar levels, the Mayo Clinic notes. Plus, per Mayo, a healthy diet that includes insoluble fiber can lower your odds of developing type 2 diabetes in the first place.Furthermore, a study of people with type 2 diabetes published in August 2016 in Experimental and Therapeutic Medicine found that regularly consuming soluble fiber helped reduce insulin resistance and improved blood sugar and triglyceride levels."
+      ],
+      "id": 10
+    },
+    {
+      "name": "Pomegranate",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 12,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/12.1.jpg?v=1623396849",
+        "https://cdn.shopify.com/s/files/1/0572/5005/4294/products/12.3.jpg?v=1623396849"
+      ],
+      "description": [
+        "With increasing age and the type of lifestyle we live, the walls of our arteries become harder due to cholesterol, resulting in blockages sometimes. The anti-oxidant property of pomegranate prevents bad cholesterol from oxidizing. So, eating pomegranates removes the excess fat and prevents the hardening of artery walls."
+      ],
+      "id": 11
+    },
+    {
+      "name": "Pineapple",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 18,
+      "images": [
+        "https://sc04.alicdn.com/kf/Ubb566e6691ef4550b46064686426357bL.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9wjmiUQzhyku79AbbM3LAA9JanM8H82R8A&usqp=CAU"
+      ],
+      "description": [
+        "Along with calcium, the trace mineral manganese is essential for maintaining strong bones, according to the University of Rochester Medical Center. Pineapple is one of the top food sources of the mineral, according to Oregon State University — a single cup of pineapple contains about 76 percent of the recommended daily value of manganese. Manganese may help stave off osteoporosis and helps improve overall bone and mineral density, according to Oregon State University. Be careful not to overdo it, though — manganese intake can be dangerous and may increase the risk of cognitive disorders if you consume more than 11 mg per day, according to a study published in The Open Orthopaedics Journal. But don’t fret: It’d be difficult to reach those levels because ½ cup pineapple has less than 1 mg manganese, Andrews says."
+      ],
+      "id": 12
+    },
+    {
+      "name": "Papaya",
+      "weight": 600,
+      "category": "Buah",
+      "price": 9500,
+      "stock": 19,
+      "images": [
+        "https://raithachethana.com/wp-content/uploads/2021/11/Papaya-1.jpg",
+        "https://confidiet.com/wp-content/uploads/2021/08/papaya.jpg"
+      ],
+      "description": [
+        "Papaya is also great for hair because it contains vitamin A, a nutrient required for sebum production, which keeps hair moisturized. Vitamin A is also necessary for the growth of all bodily tissues, including skin and hair. Adequate intake of vitamin C, which papaya can provide, is needed for the building and maintenance of collagen, which provides structure to skin."
+      ],
+      "id": 13
+    }
+  ],
+  "articles": [
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0572/5005/4294/articles/7_1024x1024.jpg?v=1623405458",
+      "judul": "Fruit is an essential food for our life",
+      "deskripsi": "Fruits Provide Many Vitamins:\nPreviously, vitamins were only understood as organic compounds necessary for health that were absorbed by the body in small amounts to maintain basic functions, however, scientists at the Harvard School of Public Health gave a new, more comprehensive definition of vitamins: They are nutrients that must be obtained because the body cannot produce it on its own.\n\nFruits Contain A Lot Of Water:\nWater accounts for 60% - 95% of fruit depending on the type, very abundant and fresh, but it is pure water, not infected, cloudy. Water from the ground is sucked up, filtered naturally, placed in the fruit for us to use without having to waste time boiling gravel or decanting it. Using this water, we are no longer afraid of pollution of dust, chemicals, ...\n\nBenefits Of Eating Fruit\n1.  Boost your brain\n\n2.  Prevent chronic diseases\n\n3.  Skin beauty\n\n4.  Avoid cancer",
+      "id": 1
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0572/5005/4294/articles/2_1024x1024.jpg?v=1623402335",
+      "judul": "What fruit should be eaten, when?",
+      "deskripsi": "Eating fruit an hour before a meal has the most effective fat loss and digestion effect. Fruit contains sugar, which is easily absorbed by the body to replenish energy, moreover the fiber in fruit cannot be absorbed by the body to help create a feeling of fullness, which is the secret to losing fat when using fruit. plants before meals.\nOn the market, in addition to seasonal fruits such as rambutan, lychee, avocado, mangosteen, etc., there are also varieties available all year round such as dragon fruit, guava, acerola,...\nAny fruit is good and nutritious, so what kind of fruit should be eaten is the choice of each person, depending on preferences, eating habits and economic status of each family. Not all expensive fruits are nutritious, Each type of fruit has different taste and properties, so it also has different effects. Nutrition experts recommend eating 400g of vegetables and fruits per day, fresh vegetables are the best.",
+      "id": 2
+    },
+    {
+      "image": "https://cdn.shopify.com/s/files/1/0572/5005/4294/articles/9_1024x1024.jpg?v=1623404499",
+      "judul": "Fruit juice and its effects",
+      "deskripsi": "1. What Is Fruit Juice? Fruit juice is a drink made from fruits found in nature by the method of squeezing, distilling the residue and taking only water. Each type of fruit is rich in vitamins and nutrients that provide different health benefits. This is one of the natural, healthy foods and brings high nutritional value to human health if we use them properly and in moderation. 2. Is Fruit Juice Really Good? Supplement vitamins and minerals Our bodies always need a lot of vitamins and minerals to function properly, fortunately, vegetables and fruits contain a lot of nutrients that we need. It's not just that we choose colorful vegetables and fruits, different colors will bring a different benefit to the body. Beets nourish blood, oranges help increase vitamin C and thousands of other useful fruits. If you are afraid of eating vegetables or fruits, you can squeeze the juice and drink it too! Provides abundant fiber No need to introduce, the fiber that the body needs is in the fruits and vegetables that we eat every day. However, the carcass contains a significant amount of fiber, so you might want to consider drinking fruit juice and eating the whole piece of fruit. Supports weight loss and body cleansing If you are in the process of losing weight, the eating becomes more demanding, so it is very necessary to support from juicing. A cup of unsweetened fruit juice will help you feel more comfortable, eat more delicious. However, you should not just use fruit juices to lose weight because they have no protein as well as completely fiber. In addition, some fruits are also high in sugar, not only can not lose weight, but also increase cravings more. Therefore, you should only use juices to support weight loss, not completely depend on them!",
+      "id": 3
+    }
+  ]
+}

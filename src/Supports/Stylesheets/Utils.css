@@ -1,0 +1,141 @@
+:root {
+  --main-light: #f7f7f7;
+  --main-dark: #2c3333;
+  --secondary-light: #54bab9;
+  --secondary-dark: ;
+  --light: ;
+  --dark: #787a91;
+  --light-grey: #dddddd;
+  --dark-grey: #efefef;
+  --info: #54bab9;
+  --danger: #f05454;
+}
+
+/* Background Color */
+.sefruit-bg-main-light {
+  background-color: var(--main-light);
+}
+
+.sefruit-bg-main-dark {
+  background-color: var(--main-dark);
+}
+
+.sefruit-bg-secondary-light {
+  background-color: var(--secondary-light);
+}
+
+.sefruit-bg-secondary-dark {
+  background-color: var(--secondary-dark);
+}
+
+.sefruit-bg-dark {
+  background-color: var(--dark);
+}
+
+.sefruit-bg-light-grey {
+  background-color: var(--light-grey);
+}
+
+.sefruit-bg-dark-grey {
+  background-color: var(--dark-grey);
+}
+
+.sefruit-bg-info {
+  background-color: var(--info);
+}
+
+.sefruit-bg-danger {
+  background-color: var(--danger);
+}
+
+/* Font Color */
+.sefruit-main-light {
+  color: var(--main-light);
+}
+
+.sefruit-main-dark {
+  color: var(--main-dark);
+}
+
+.sefruit-secondary-light {
+  color: var(--secondary-light);
+}
+
+.sefruit-secondary-dark {
+  color: var(--secondary-dark);
+}
+
+.sefruit-dark {
+  color: var(--dark);
+}
+
+.sefruit-light-grey {
+  color: var(--light-grey);
+}
+
+.sefruit-dark-grey {
+  color: var(--dark-grey);
+}
+
+.sefruit-info {
+  color: var(--info);
+}
+
+.sefruit-danger {
+  color: var(--danger);
+}
+
+/* Font Size */
+.sefruit-font-size-10 {
+  font-size: 10px;
+}
+
+.sefruit-font-size-12 {
+  font-size: 12px;
+}
+
+.sefruit-font-size-14 {
+  font-size: 14px;
+}
+
+.sefruit-font-size-15 {
+  font-size: 15px;
+}
+
+.sefruit-font-size-18 {
+  font-size: 18px;
+}
+
+.sefruit-font-size-20 {
+  font-size: 20px;
+}
+
+/* Additional */
+.sefruit-link {
+  color: inherit;
+}
+
+.sefruit-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sefruit-nav-page {
+  text-decoration: none;
+  position: relative;
+  top: -100px;
+  /* left:20px; */
+  color: gray;
+}
+
+.sefruit-nav-page:hover {
+  color: black;
+}
+
+.sefruit-nav-page > h4 {
+  font-weight: 600;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 0px 10px 10px 0px;
+  background-color: rgba(245, 246, 250, 0.6);
+}
